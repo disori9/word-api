@@ -10,7 +10,7 @@ def home():
 
 
 @app.route('/api/v1/<word>')
-def definition(word):
+def api(word):
     word = word
     word_definition = ""
     word_dict = {"definition": word.upper(),
