@@ -11,7 +11,6 @@ def home():
 
 @app.route('/api/v1/<word>')
 def api(word):
-    word = word
     word_definition = ""
     word_dict = {"definition": word.upper(),
             "word": word}
